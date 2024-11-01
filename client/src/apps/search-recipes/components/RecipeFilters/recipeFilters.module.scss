@@ -1,0 +1,20 @@
+.container {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+
+  input[type="checkbox"] {
+    margin: 0 5px 0 0;
+  }
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input {
+  padding: 7px;
+}

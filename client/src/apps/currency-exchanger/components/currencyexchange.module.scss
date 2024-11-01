@@ -1,0 +1,32 @@
+form {
+  @extend .flexCol;
+}
+
+button {
+  font: 500;
+  width: 120px;
+  height: 50px;
+}
+
+input {
+  height: 30px;
+  padding: 8px;
+  font-size: 1em;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
