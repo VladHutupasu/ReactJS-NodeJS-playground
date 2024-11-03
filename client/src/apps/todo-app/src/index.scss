@@ -1,0 +1,32 @@
+:root {
+  background-color: #242424;
+  color-scheme: light dark;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+
+  color: rgba(255, 255, 255, 0.87);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.error-message {
+  color: red;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    margin: 15px;
+  }
+}

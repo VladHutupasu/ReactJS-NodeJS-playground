@@ -3,10 +3,15 @@ import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  root: "src/apps/products-listing",
+  build: {
+    outDir: "dist/products-listing",
+  },
+  publicDir: "../../../public",
   plugins: [react()],
-  server: {
-    proxy: {
-      "/api": "http://localhost:1234",
+  resolve: {
+    alias: {
+      "@": "/src",
     },
   },
 });

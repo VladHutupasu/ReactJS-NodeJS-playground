@@ -1,0 +1,13 @@
+.filterContainer {
+  max-width: 300px;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .filterContainer {
+    align-self: center;
+  }
+}
